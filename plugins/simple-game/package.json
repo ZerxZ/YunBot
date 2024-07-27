@@ -3,7 +3,7 @@
   "description": "(自用) 路昀的修仙插件",
   "version": "1.0.4",
   "main": "lib/index.js",
-  
+
   "typings": "lib/index.d.ts",
   "files": [
     "lib",
@@ -11,7 +11,6 @@
   ],
   "license": "MIT",
   "keywords": [
-    "chatbot",
     "koishi",
     "plugin",
     "game"
@@ -26,7 +25,7 @@
   },
   "koishi": {
     "description": {
-      "zh": "(自用) 路昀的修仙插件"
+      "zh": "(自用) 简单游戏"
     },
     "service":{ "required": ["database"]},
     "locales": [
@@ -35,6 +34,5 @@
     "preview": true
   },
   "dependencies": {
-    "lunar-javascript": "^1.6.12"
   }
 }
